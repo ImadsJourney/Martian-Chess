@@ -1,0 +1,41 @@
+# Stack build artifacts
+.stack-work/
+stack.yaml.lock
+*.cabal
+
+# Cabal build artifacts
+dist/
+dist-*/
+cabal-dev/
+
+# Cabal sandbox / local config (legacy)
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.project.local
+cabal.project.local~
+
+# Compiled output
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+
+# HPC (code coverage)
+.hpc/
+
+# Test frameworks / tools
+.HTF/
+
+# GHC / environment
+.hsenv/
+.ghc.environment.*
+.stack-root/  # if you use STACK_ROOT within repo
+
+# Common editor swap/backup files
+*~
+*.swp
+*.swp~
+*.swo
+.DS_Store
