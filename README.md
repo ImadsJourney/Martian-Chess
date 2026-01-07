@@ -1,9 +1,1 @@
-# Test Commands:
-- Run all tests: stack test
-- Run validation tests: stack test martian-chess:validate
-- Run unit tests: stack test martian-chess:units
-- Run tests with coverage report: stack test martian-chess:units --coverage
-
-# Building Commands
-- stack build
-- stack clean
+Martian Chess is a university Haskell project built with Stack and developed over four weeks as part of a semester portfolio. It implements the full game logic for a modified variant of Martian Chess, including board parsing/serialization via a FEN-like notation, legal move generation for all piece types, move execution with scoring, and win detection. The project is backed by an HSpec unit test suite with coverage reporting, and it can be played and validated through a provided GUI that drives the game engine via a small CLI interface.
